@@ -1,0 +1,111 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: #fff;
+  font-weight: 300;
+  line-height: 1.8em;
+  font-family: Arial, Helvetica, sans-serif;
+  background: url('../Assets/action4.jpg')no-repeat center fixed;
+  background-size: cover;
+  background: linear-gradient(to right, rgba(249, 242, 236 ));
+}
+
+h1{
+  font-size: 40px;
+  font-weight: bold;
+  padding: 12px;
+  color: navajowhite;
+  width: auto;
+}
+
+
+.logo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.6;
+
+}
+
+.form-container{
+  display: grid;
+  justify-content: center;
+  margin-top: 12px;
+  padding: 14px;
+  width: auto;
+}
+
+.form-container:hover{
+  font-weight: 200;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.form-cover{
+  display: grid;
+  justify-content: center;
+  margin: 13px 0px;
+  padding: 12px 0px;
+}
+
+.form-cover label{
+  font-weight: bold;
+  padding-bottom: 0;
+}
+
+.input[type=text]{
+  color: #000;
+  padding-top: 0px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  transition: 0.5s;
+}
+.input[type=password]{
+  color: #000;
+  padding-top: 0px;
+  border-radius: 4px;
+   border: 1px solid #ccc;
+  transition: ease-in 0.5s;
+}
+.input[type=text]:focus{
+  background-color: #2db300;
+  border: 2px solid #555;
+}
+.input[type=password]:focus{
+  background-color: #2db300;
+  border: 2px solid #555;
+}
+
+#btn{
+  padding: 12px 0px;
+  background-color: #808080;
+  color: #fff;
+  border-style: double;
+  border-radius: 6px;
+  text-transform: capitalize;
+  font-size: medium;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  cursor: pointer;
+}
+
+#btn:hover{
+  color: goldenrod; 
+}
+#btn:checked{
+  color: #ff6666;
+}
+#btn:active{
+  color: #ff8080;
+}
+
+.last-link{
+  text-decoration: none;
+  color: purple;
+}
+
+.sigin-link a{
+  text-align: center;
+}
